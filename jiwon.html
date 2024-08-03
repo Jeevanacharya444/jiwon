@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title >Jeevan Acharya</title>
+  <link
+  rel="icon"
+  href=
+"images/jeevan.jpg"
+  type="image/x-icon"
+/>
+<style>
+
+body {
+  background-color:rgb(5, 46, 23);
+  font-family: Roboto, Arial;
+  color: rgb(33, 33, 33);
+}
+/* The navbar container */
+.amazon-header {
+  background-color: rgb(9, 12, 10);
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+
+}
+
+.amazon-logo {
+  width: 38px;
+  margin-top: 5px;
+  height: 28px;
+}
+
+.amazon-mobile-logo {
+  display: none;
+}
+
+.amazon-header-middle-section {
+  flex: 1;
+  max-width: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.search-bar {
+  flex: 1;
+  width: 0;
+  font-size: 16px;
+  height: 30px;
+  padding-left: 15px;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+ 
+}
+
+.search-button {
+  background-color: rgb(45, 192, 131);
+  border: none;
+  width: 45px;
+  height: 40px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  flex-shrink: 0;
+}
+
+.search-icon {
+  height: 22px;
+  margin-left: 2px;
+  margin-top: 3px;
+}
+
+.h1{
+  font-weight: 900;
+
+}
+.topnav {
+  overflow: hidden;
+  background-color: #32be73;
+  height: 80px;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.delivery-date {
+  font-display: side;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.product-info {
+  margin-bottom: 3px;
+}
+
+</style>
+</head>
+<body>
+  <div class="amazon-header">
+    <div class="amazon-header-left-section">
+      <a href="jiwon.html" class="header-link">
+        <img class="amazon-logo"
+          src="images/jeevan.jpg">
+        <img class="amazon-mobile-logo"
+          src="images/jeev.jpg">
+      </a>
+    </div>
+    <div class="amazon-header-middle-section">
+    <input class="search-bar" type="text" placeholder="Search">
+
+    <button  class="search-button js-search" >
+      <img class="search-icon" src="images/search-icon.png" >
+    </button>
+    </div>
+  </div>
+
+    <div><h1 class="hi"></h1>
+    <p></p></div>
+
+<div class="topnav">
+  <a href="https://www.facebook.com/" >Jeevan facebook</a>
+  <a href="https://www.instagram.com/?hl=en">Instagram</a>
+  <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Gmail</a>
+  <a href="https://tms58.nepsetms.com.np/login">TMS</a>
+  <a href="https://nepalstock.com/">NEPSA</a>
+  <a href="https://meroshare.cdsc.com.np/#/login">Meroshare</a>
+  <a href="http://google.com/">Google</a>
+  <a href="https://psc.gov.np/">Psc</a>
+  <a href="https://www.sharesansar.com/">Sharesansar</a>
+  <a href="https://www.hamropatro.com/">calander</a>
+</div>
+
+<div class="topnav">
+  <a href="https://www.hamropatro.com/">calander</a>
+  <a href="https://www.sharesansar.com/">Sharesansar</a>
+  <a href="https://www.youtube.com/">youtube</a>
+  <a href="jiwon.html">About</a>
+</div>
+
+<P>Happy to be here.</P>
+<script src="Script/search.js"></script>
+</body>
+
+</html>

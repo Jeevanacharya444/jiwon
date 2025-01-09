@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Same as above -->
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li class="dropdown">
+            <a href="#">Services ▾</a>
+            <div class="dropdown-content">
+                <a href="#">Service 1</a>
+                <a href="#">Service 2</a>
+                <!-- Add more service links -->
+            </div>
+        </li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <style>
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</body>
+</html>
